@@ -1,0 +1,16 @@
+{
+  "client_id": "https://skiily.github.io/fd-agent/client.json",
+  "client_name": "FD Agent (personal)",
+  "redirect_uris": [
+    "http://localhost:8976/callback",
+    "http://127.0.0.1:8976/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none"
+}
